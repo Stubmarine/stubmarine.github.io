@@ -16,7 +16,7 @@
 title: Stubmarine
 email: hello@stubmarine.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Stubmarine - hosted stubs of popular SaaS tools. It's mailcatcher, but for the modern web developer.
+  Pre-built external service stubs to improve developer experience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
