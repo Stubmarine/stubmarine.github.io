@@ -1,5 +1,43 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import "reset";
+@import "milligram";
+
+.header {
+  padding-top: 5rem;
+  background-color: $color-tertiary;
+}
+
+.main {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  .container {
+    max-width: 80rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+}
+
+.header {
+  .container {
+    position: relative;
+    text-align: center;
+  }
+}
+
+.footer {
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.steps li {
+  list-style: inherit;
+}
+
+@import "navigation";

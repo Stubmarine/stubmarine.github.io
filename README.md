@@ -17,3 +17,7 @@ Run in local dev mode via:
 1. `rvm use ruby-2.3.0`
 1. `rvm gemset use stubmarine`
 1. `jekyll serve`
+
+## License
+
+Licensed under the MIT License.
