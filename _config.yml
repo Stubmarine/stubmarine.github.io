@@ -19,6 +19,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+stubmarine:
+  currentversion: "v0.1.0"
+  currentjar: "stubmarine-0.1.0.jar"
+  currentrelease: "https://github.com/Stubmarine/stubmarine/releases/download/v0.1.0/stubmarine-0.1.0.jar"
+  demourl: "https://stubmarine.cfapps.io"
+  giturl: "git@github.com:Stubmarine/stubmarine.git"
+  repourl: "https://github.com/Stubmarine/stubmarine"
+
 # Build settings
 markdown: kramdown
 plugins:
