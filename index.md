@@ -12,7 +12,7 @@ permalink: /
       Pre-built external service stubs to improve developer experience.
       <br>
       <i>
-        <small>Currently {{ site.stubmarine.currentversion }}</small>
+        <small>Currently {{ site.stubmarine.currentversion }} ({{ site.stubmarine.currentsize }})</small>
       </i>
     </p>
     <div>
@@ -21,6 +21,7 @@ permalink: /
     </div>
   </section>
 </header>
+
 <section class="container" id="getting-started">
   <h3 class="title">Getting Started</h3>
   <p>Get started using Stubmarine quickly by doing:</p>
@@ -32,6 +33,25 @@ permalink: /
     <li>Run <code class="highlighter-rouge">JWTSECRET=secret java -jar {{ site.stubmarine.currentjar }}</code></li>
   </ol>
 </section>
+
+<section class="container">
+  <h3 class="title">Why?</h3>
+  <div class="row">
+    <div class="column value-prop">
+      <h4>Prevent data accidents</h4>
+      <p>Stubmarine works with any email addresses - never accidentally send emails to real inboxes again</p>
+    </div>
+    <div class="column value-prop">
+      <h4>Develop in isolation</h4>
+      <p>Insulate yourself against 3rd party outages and spec changes that halt development</p>
+    </div>
+    <div class="column value-prop">
+      <h4>Develop offline</h4>
+      <p>Don't rely on internet connectivity to develop code by running Stubmarine locally</p>
+    </div>
+  </div>
+</section>
+
 <section class="container">
   <h3 class="title">Using Stubmarine</h3>
   <p>Using Stubmarine is easy.</p>
@@ -41,6 +61,7 @@ permalink: /
     <li>Develop code with ease!</li>
   </ol>
 </section>
+
 <section class="container">
   <h3 class="title">Happy Users</h3>
   TODO

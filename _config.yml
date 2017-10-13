@@ -23,6 +23,7 @@ stubmarine:
   currentversion: "v0.1.0"
   currentjar: "stubmarine-0.1.0.jar"
   currentrelease: "https://github.com/Stubmarine/stubmarine/releases/download/v0.1.0/stubmarine-0.1.0.jar"
+  currentsize: "31.9 MB"
   demourl: "https://stubmarine.cfapps.io"
   giturl: "git@github.com:Stubmarine/stubmarine.git"
   repourl: "https://github.com/Stubmarine/stubmarine"
